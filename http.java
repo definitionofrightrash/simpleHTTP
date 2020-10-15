@@ -1,14 +1,14 @@
 import java.util.*;
 import java.net.*;
-
+import java.io.*; 
 public class Client
 {
-	public static Socket socket;
-	public static DataInputStream input;
-	public static DataOutputStream out;
+	public static Socket socket = null;
+	public static DataInputStream  input = null; 
+	public static DataOutputStream out = null; 
 	public static String stdNumber = "hello";
-	public static String url;
-	public static String address;
+	public static String url = null;
+	public static String address = null;
 
 
 	public void send(String methodName){}
@@ -16,7 +16,7 @@ public class Client
 	public void response(){}
 
 	public static void main(String args[]){
-		system.out.println(this.stdNumber);
+		System.out.println(Client.stdNumber);
 	
 	
 	
