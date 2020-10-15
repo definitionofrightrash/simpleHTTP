@@ -7,8 +7,7 @@ public class Client
 	public static DataInputStream  input = null; 
 	public static DataOutputStream out = null; 
 	public static String stdNumber = "hello";
-	public static String url = null;
-	public static String address = null;
+	public static URL url = null;
 
 
 	public void send(String methodName){}
